@@ -1,0 +1,129 @@
+.three-a input{
+  width: 500px;
+  height:35px;
+  padding: 4px 44px 4px 4px;
+  box-sizing: border-box;
+} 
+.two-a{
+  width: 1190px;
+  height:60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}
+.three-a i{
+  height:35px;
+  width: 50px;
+  background:red;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  font-weight:700;
+  font-size: 20px;
+  font-style: normal;
+}
+.three-a{
+  display: flex;
+}
+.four-a{
+  width: 190px;
+  height:35px;
+  background: #fff;
+  margin-right:100px;
+  margin-left:30px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#f10214;
+  
+}
+.four-a >i{
+  height: 33px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 33px;
+  font-size: 16px;
+  margin-right:5px;
+  font-style: normal;
+}
+.four-a >div{
+  width: 14px;
+  height:14px;
+  color:#fff;
+  background: #f10214;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  position: relative;
+  left:5px;
+  bottom:5px;
+  
+}
+
+
+.two-a img{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top:5px;
+  
+}
+.four-b{
+  height:50px;
+  width: 300px;
+  position: absolute;
+  background: #fff;
+  right: 100px;
+  display: none;
+}
+.four-c{
+  position: relative;
+}
+.five-a{
+  height:20px;
+  width: 550px;
+  margin-top:5px;
+  display: flex;
+  font-size: 12px;
+  justify-content:space-around;
+  color:#999;
+}
+.five-a >div:nth-child(1){
+  color:red;
+}
+.one-a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.five-a div:hover{
+  color:red;
+}
+/*@keyframes a{
+  0%{
+    transform: rotateY(0deg);
+  }
+  100%{
+    transform: rotateY(360deg);
+  }
+}*/
+.five-b{
+  height:40px;
+  width: 790px;
+  padding-top: 20px;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  color:#333;
+  font-size:14px;
+}
+.five-b div:hover{
+  color:red;
+}
