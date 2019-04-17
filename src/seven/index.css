@@ -39,6 +39,8 @@
   top:126px;
   background: #fff;
   left:86px;
+  background-image:url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.seckill.png);
+  background-position:-35px -25px;
 }
 .seven-f{
   position: absolute;
@@ -134,6 +136,7 @@
 }
 .seven-o{
   color: #666;
+  text-decoration: line-through;
 }
 .seven-q{
   height:275px;

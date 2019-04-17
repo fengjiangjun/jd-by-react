@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from 'react-slider-fjj';
 import { render } from 'react-dom';
-import { One, Six, Ten, Seven } from '../src/merge/merge.js';
+import { One, Six, Ten, Seven, Edging } from '../src/merge/merge.js';
 import './demo.css';
 
 const txt = [
@@ -683,7 +683,7 @@ const text8 = [
   ],
   [
     {
-      img: 'http://img4.imgtn.bdimg.com/it/u=4178056702,915113080&fm=26&gp=0.jpg',
+      img: 'http://img4.imgtn.bdimg.com/it/u=3560733637,1342090879&fm=26&gp=0.jpg',
       text: '企业购'
     },
     {
@@ -701,11 +701,11 @@ const text8 = [
   ],
   [
     {
-      img: 'http://img.wdjimg.com/mms/icon/v1/8/5b/c26bdd4c4391ad12036e067528c905b8_256_256.png',
+      img: 'http://img3.imgtn.bdimg.com/it/u=813037981,66812996&fm=26&gp=0.jpg',
       text: '众筹'
     },
     {
-      img: 'http://img3.imgtn.bdimg.com/it/u=3175974164,4065706619&fm=26&gp=0.jpg',
+      img: 'http://img4.imgtn.bdimg.com/it/u=1214451332,4020202128&fm=26&gp=0.jpg',
       text: '理财'
     },
     {
@@ -758,9 +758,11 @@ function render1 () {
   page = <div className="content">
     <One txt={txt} two={two} five={five} leave={leave} enter={enter} leaves={leaves} enters={enters} six={six} display={display} displays={displays} seven={seven} />
     <div><Six yes={yes} ones={ones} twos={twos} threes={threes} />
-      <Ten tens={tens} tenImg={tenImg} imgss={imgss} img1={img1} img2={img2} text1={text1} text2={text2} text3={text3} text4={text4} text5={text5} text6={text6} text7={text7} text8={text8}><Slider list={list} transitionTime={'3s'} width={590} height={470} /></Ten>
-      <Seven sevenList={sevenList}><Slider roundClassName={'round'} roundActiveClassName={'round1'} list={list2} width={180} height={260}></Slider></Seven>
-    </div ></div>
+      <Ten tens={tens} tenImg={tenImg} imgss={imgss} img1={img1} img2={img2} text1={text1} text2={text2} text3={text3} text4={text4} text5={text5} text6={text6} text7={text7} text8={text8}><Slider roundClassName={'round1'} roundActiveClassName={'roundActive1'} list={list} transitionTime={'3s'} width={590} height={470} /></Ten>
+      <Seven sevenList={sevenList}><Slider roundClassName={'round'} roundActiveClassName={'roundActive'} list={list2} width={180} height={260}></Slider></Seven>
+    </div >
+    <Edging />
+  </div>
   render(page, document.getElementById('root'));
 }
 

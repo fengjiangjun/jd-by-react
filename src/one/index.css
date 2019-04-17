@@ -1,10 +1,17 @@
 .two{
   height:30px;
   width:100%;
+  display: flex;
+  justify-content: center;
+  background:lightgrey;
+ 
+}
+.two-div{
   font-size: 12px;
   display: flex;
   justify-content:space-between;
-  background:lightgrey;
+  
+  width: 1190px;
 }
 .one{
   height:30px;

@@ -95,6 +95,7 @@
   color:#999;
 }
 .five-a >div:nth-child(1){
+  transition: 0.3s;
   color:red;
 }
 .one-a{
@@ -126,4 +127,6 @@
 }
 .five-b div:hover{
   color:red;
+  
+
 }

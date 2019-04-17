@@ -1,0 +1,16 @@
+.edging-b{
+  height:100%;;
+  width: 6px;
+  background-color: rgb(122, 110, 110);
+  position: fixed;
+  right:0px;
+  top:0;
+}
+.edging-c{
+  width: 35px;
+  height:252px;
+  position: fixed;
+  right:0;
+  top:50%;
+  transform: translateY(-50%);
+}
