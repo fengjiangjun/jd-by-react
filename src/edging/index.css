@@ -14,3 +14,17 @@
   top:50%;
   transform: translateY(-50%);
 }
+.edging-c >div{
+  width: 34px;
+  height:35px;
+  overflow: hidden;
+  background-color: rgb(122, 110, 110);
+  margin-bottom:2px; 
+
+}
+.edging-d{
+  background-image:url(http://misc.360buyimg.com/mtd/pc/o2_toolbar/1.0.0/home/images/toolbars.png);
+
+}
+
+

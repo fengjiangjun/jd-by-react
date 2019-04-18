@@ -752,7 +752,7 @@ const list2 = [
   {
     text: 'http://img11.360buyimg.com/mobilecms/s360x520_jfs/t1/19344/28/15568/52497/5cb09c16Edfa51090/5b65a5ad45b04c10.jpg!q90!cc_180x260'
   }
-]
+];
 
 function render1 () {
   page = <div className="content">

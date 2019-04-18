@@ -7,7 +7,15 @@ export default class extends React.Component {
   render () {
     return <div className='edging-a'>
       <div className='edging-b'></div>
-      <div className='edging-c'> </div>
+      <div className='edging-c'>
+        <div className='edging-d'></div>
+        <div className='edging-e'></div>
+        <div className='edging-f'></div>
+        <div className='edging-g'></div>
+        <div className='edging-h'></div>
+        <div className='edging-j'></div>
+        <div className='edging-k'></div>
+      </div>
     </div>
   }
 }
