@@ -7,7 +7,7 @@ export default props => {
     <div className='two-div'>
       <div className='one'>
         <div className='three' onMouseEnter={props.enter} onMouseLeave={props.leave}>
-          <img src={props.five} />
+          <div className="area-icon"></div>
           <div >{txt[0].txt1}</div>
           <div className='five' style={{ display: props.display }}>{props.six.map(item => {
             return <div>{item.map((items) => {

@@ -123,3 +123,9 @@
 .four>div >div:nth-child(6):hover{
   background: #fff;
 }
+
+.area-icon{
+  color: red;
+  font-size: 14px;
+  margin-right: 4px;
+}

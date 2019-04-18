@@ -68,6 +68,7 @@
   text-align: center;
   line-height: 40px;
   font-size:20px;
+  font-weight: bold;
 }
 .seven-k{
   width: 800px;
@@ -136,6 +137,7 @@
 }
 .seven-o{
   color: #666;
+  color:#b7bcb8;
   text-decoration: line-through;
 }
 .seven-q{

@@ -12,6 +12,26 @@
   align-items: flex-end;
   position: relative;
 }
+.search{
+  border:0;
+  outline: none;
+  font-size: 14px;
+  line-height: 25px;
+  color:#333;
+}
+.search-camera{
+  position: absolute;
+  top:10px;
+  right:60px;
+  display: block;
+  width: 19px;
+  height: 15px;
+  background: url(//misc.360buyimg.com/product/search/1.0.4/css/i/sprite-photo-search.png) no-repeat;
+  cursor: pointer;
+}
+.search::placeholder{
+  color: #bbb;
+}
 .three-a i{
   height:35px;
   width: 50px;
@@ -26,6 +46,7 @@
   font-style: normal;
 }
 .three-a{
+  position: relative;
   display: flex;
 }
 .four-a{

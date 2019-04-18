@@ -22,9 +22,41 @@
   margin-bottom:2px; 
 
 }
+.edging-c >div:hover{
+  background-color:red;
+}
 .edging-d{
   background-image:url(http://misc.360buyimg.com/mtd/pc/o2_toolbar/1.0.0/home/images/toolbars.png);
+  background-position: -88px -175px;
+}
+.edging-e{
+  background-image:url(http://misc.360buyimg.com/mtd/pc/o2_toolbar/1.0.0/home/images/toolbars.png);
+  background-position: -50px 0px;
+}
+.edging-f{
+  background-image:url(http://misc.360buyimg.com/mtd/pc/o2_toolbar/1.0.0/home/images/toolbars.png);
+  background-position: -50px -50px;
 
 }
+.edging-g{
+  background-image:url(http://misc.360buyimg.com/mtd/pc/o2_toolbar/1.0.0/home/images/toolbars.png);
+  background-position: -50px -100px;
 
+}
+.edging-h{
+  background-image:url(http://misc.360buyimg.com/mtd/pc/o2_toolbar/1.0.0/home/images/toolbars.png);
+  background-position: -190px -150px;
+
+
+}
+.edging-j{
+  background-image:url(http://misc.360buyimg.com/mtd/pc/o2_toolbar/1.0.0/home/images/toolbars.png);
+  background-position: -50px -150px;
+
+}
+.edging-k{
+  background-image:url(http://misc.360buyimg.com/mtd/pc/o2_toolbar/1.0.0/home/images/toolbars.png);
+  background-position: -50px -300px;
+
+}
 

@@ -8,7 +8,8 @@ export default class extends React.Component {
     return <div className='one-a'>
       <div className='two-a'>
         <div className='three-a'>
-          <input></input>
+          <input className="search" placeholder="工业品价格低至9.9"></input>
+          <div className="search-camera"></div>
           <i class="iconfont"></i>
         </div>
         <div className='four-c'>

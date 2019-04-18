@@ -19,7 +19,7 @@
 .column{
 display: flex;
 padding-left:18px;
-color: #636363;
+color: #626262;
 }
 .column >div:hover{
   color:red;
@@ -194,6 +194,7 @@ color: #636363;
   margin-bottom:6px;
   text-align: center;
   line-height: 16px;
+  color: #FFF;
 }
 .six-s >div:nth-child(1){
   background-color: #90b0c6;
